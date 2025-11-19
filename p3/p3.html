@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1"> 
+        <tr>
+            <td width="70%"> 
+                <form action="http://ncoge.com/phps/formulario.php" method="post"> 
+                    <fieldset>
+                        <legend> Datos Personales</legend>
+                            <label for="Nombre"> Nombre:</label>
+                                <input type="text" name="Nombre" value="Víctor"> <br> <br>
+                             <label for="Apellidos"> Apellidos:</label>
+                                <input type="text" name="Apellidos" value="Palanca"> <br> <br>
+                             <label for="Correo"> Correo:</label>
+                                <input type="text" name="Correo"> <br> <br>
+                            <label for="Hobbies"> Hobbies:</label>
+                                <textarea name="Hobbies" cols="50" rows="6"> </textarea>
+                    </fieldset>
+            </td>
+                
+            <td width="70%"> 
+                    <fieldset>
+                         <legend> Idiomas</legend>
+                             <p> Puntua tu nivel de idiomas de 1 a 5 </p>
+                                Inglés 
+                                <input name="inglés" type="radio" value="1"> 1
+                                <input name="inglés" type="radio" value="2"> 2
+                                <input name="inglés" type="radio" value="3"> 3
+                                <input name="inglés" type="radio" value="4"> 4
+                                <input name="inglés" type="radio" value="5"> 5
+                                <br>
+                                Francés 
+                                <input name="francés" type="radio" value="1"> 1
+                                <input name="francés" type="radio" value="2"> 2
+                                <input name="francés" type="radio" value="3"> 3
+                                <input name="francés" type="radio" value="4"> 4
+                                <input name="francés" type="radio" value="5"> 5
+                                <br>
+                                Alemán 
+                                <input name="alemán" type="radio" value="1"> 1
+                                <input name="alemán" type="radio" value="2"> 2
+                                <input name="alemán" type="radio" value="3"> 3
+                                <input name="alemán" type="radio" value="4"> 4
+                                <input name="alemán" type="radio" value="5"> 5
+                    </fieldset>
+
+                    <fieldset>
+                        <legend> Domino los siguiente programas:</legend>
+                            <table align="center"> 
+                                <tr>
+                                    <td align="center" width="40%"> 
+                                    Writer <input name="Programa1" type="checkbox" value="Writer"/> 
+                                    
+                                    <br>
+
+                                    Calc <input name="Programa3" type="checkbox" value="Calc"/>
+                                    </td>
+                                    
+                                    <td align="center" width="40%"> 
+                                    Base <input name="Programa2" type="checkbox" value="Base"/>
+                                    
+                                    <br>
+                                    
+                                    Impress <input name="Programa4" type="checkbox" value="Impress"/>
+                                    </td>
+                                </tr>
+                            </table>                            
+                    </fieldset>
+ 
+                    <fieldset>
+                        <legend> Trabajo con el siguiente Sistema Operativo:</legend>
+                            <select id="SistemaOperativo" name="SistemaOperativo">
+                                <option value="Windows">Linux</option>
+                                <option value="Mac">Mac</option>
+                                <option value="Linux">Windows</option>
+                                <option value="Otro">Otro</option>
+                            </select>
+                    </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td height="200" align="center"> 
+                <input type="reset" name="Reiniciar" value="Reiniciar">
+                <input type="image" name="Enviar2" src="https://cdn-icons-png.freepik.com/512/6711/6711560.png" width="8%">
+
+            </td>
+        </tr>
+    </table>
+    </form>
+
+</body>
+</html>
