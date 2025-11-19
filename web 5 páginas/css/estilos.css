@@ -1,13 +1,18 @@
 body {
     text-align: center;
+    background-image: url("../images/fondo.jpg");
+    
 }
 
 h1 {
-
+    background-color:grey;
+    color:white ;
+    
 }
 
 img {
-
+    border: 5px solid black;
+    border-radius: 15px;
 }
 
 ul {
