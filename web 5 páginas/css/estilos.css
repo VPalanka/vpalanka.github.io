@@ -7,9 +7,6 @@ body {
 }
 
 h1 {
-    font-family: "Aboreto", system-ui;
-    font-weight: 400;
-    font-style: normal;
     background-color:grey;
     color:white ;
     border-left-width: 9px;
@@ -32,9 +29,13 @@ li {
     display: inline;
     border-style: solid;
     border-width: 1px;
-    font-family: "Aboreto", system-ui;
-    font-weight: 400;
-    font-style: normal;
 }
 
- a:visited
+ a:visited {}
+
+.playfair-display-font {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
