@@ -73,7 +73,7 @@ p {
   */
   /* necesitas 2 instrucciones*/
   /*1: */
-  color: blue;
+  text-decoration:underline blue;
   /*2: */
   background-color: orange;
 }
@@ -161,10 +161,10 @@ p {
  */
 
   /* necesitas 4 instrucciones. 3 son distancia a los bordes :)*/
-  /*1: */ margin-top: 10%;
-  /*2: */ margin-left: 10%;
-  /*3: */ margin-right: 10%;
-  /*4: */ position: absolute;
+  /*1: */ position: absolute;
+  /*2: */ top: 50%;
+  /*3: */ left: 10%;
+  /*4: */ right: 10%;
   border:2px solid red;
   background-color: white;
   margin-bottom: 5px;
