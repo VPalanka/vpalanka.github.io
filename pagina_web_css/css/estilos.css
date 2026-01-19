@@ -1,7 +1,7 @@
 body{
-    background-color: beige;
     margin: 0;
     padding: 0;
+    background-color: blue;
 }
 
 #menu{
@@ -39,22 +39,50 @@ body{
 }
 
 header{
+    height: 200px;
+    margin-top: 55px;
+    border: black solid 2px;
+}
+
+header img {
+    background-color: white;
+    float: left;
+}
+
+header h1 {
+    color: white;
+    border: solid black 2px;
     text-align: center;
-    margin-top:55px;
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/de4f8028-8b33-49d8-b888-2b19d1992fab/demn0vs-697185ca-1b97-443c-92a3-2aaa0c285ab8.jpg/v1/fill/w_1280,h_720,q_75,strp/background_nintendo_switch__2_by_kenji_cosplay_studio_demn0vs-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6Ii9mL2RlNGY4MDI4LThiMzMtNDlkOC1iODg4LTJiMTlkMTk5MmZhYi9kZW1uMHZzLTY5NzE4NWNhLTFiOTctNDQzYy05MmEzLTJhYWEwYzI4NWFiOC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.pZXFN9Ro5BSrpCVk9I0FbY2k-c-9FC1qLkVzoE9jwhQ);
-    background-size: cover;
-    height: 400px;
+}
+
+.content{
+    background-color: grey;
+    height: 600px;
+    border: black solid 2px;
+    overflow: hidden;
+}
+
+.content .contenedor{
+    width: 80%;
+    float: left;
+    height: 600px;
+    background-color: white;
+}
+
+.content .parte1 {
     
 }
 
-.fondo {
-    
+.content .parte2{
+
 }
+
+aside{}
 
 footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-abstracto-textura-cuadrados-rojos_476363-687.jpg?semt=ais_hybrid&w=740&q=80);
 }
 
