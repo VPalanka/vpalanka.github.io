@@ -1,5 +1,7 @@
 body{
     background-color: beige;
+    margin: 0;
+    padding: 0;
 }
 
 #menu{
@@ -7,18 +9,23 @@ body{
     position: fixed;
     width: 100%;
     top: 0;
-}
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-abstracto-textura-cuadrados-rojos_476363-687.jpg?semt=ais_hybrid&w=740&q=80);
+    }
 
 
 #menu li {
     display:inline;
-    border: solid red;
 }
 
 #menu li a{
     padding: 8px 16px ;
     border: 3px black dotted;
     text-decoration: none;
+    background-color: #B4FAFA;
+}
+
+#menu li a:hover{
+    background-color: #E78CFF;
 }
 
 #menu ul li:first-child a{
@@ -34,26 +41,13 @@ body{
 header{
     text-align: center;
     margin-top:55px;
-    background: pink
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9f0f9135-9c01-42b7-96a7-b4d2d58f060a/d60i4ud-db8520be-b62c-4c11-8586-94860d169b15.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi85ZjBmOTEzNS05YzAxLTQyYjctOTZhNy1iNGQyZDU4ZjA2MGEvZDYwaTR1ZC1kYjg1MjBiZS1iNjJjLTRjMTEtODU4Ni05NDg2MGQxNjliMTUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.SMWUV6gOASQva8W_77x_rKbMKMbLMod0vZ5LX9GDuOk);
+    background-size: cover;
+    height: 500px;
 }
 
-.contenido1{
-    width: 50%;
-    border: black solid 2px;
-    float: left;
-
-}
-
-.contenido2{
-    width: 50% ;
-    border:  black solid 2px;
-    float: left;
-}
-
-aside {
-    border: black solid 2px;
-    float: right;
-    width: 30%;
+.fondo {
+    
 }
 
 footer{
