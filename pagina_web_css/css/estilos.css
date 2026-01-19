@@ -41,9 +41,10 @@ body{
 header{
     text-align: center;
     margin-top:55px;
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9f0f9135-9c01-42b7-96a7-b4d2d58f060a/d60i4ud-db8520be-b62c-4c11-8586-94860d169b15.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi85ZjBmOTEzNS05YzAxLTQyYjctOTZhNy1iNGQyZDU4ZjA2MGEvZDYwaTR1ZC1kYjg1MjBiZS1iNjJjLTRjMTEtODU4Ni05NDg2MGQxNjliMTUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.SMWUV6gOASQva8W_77x_rKbMKMbLMod0vZ5LX9GDuOk);
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/de4f8028-8b33-49d8-b888-2b19d1992fab/demn0vs-697185ca-1b97-443c-92a3-2aaa0c285ab8.jpg/v1/fill/w_1280,h_720,q_75,strp/background_nintendo_switch__2_by_kenji_cosplay_studio_demn0vs-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6Ii9mL2RlNGY4MDI4LThiMzMtNDlkOC1iODg4LTJiMTlkMTk5MmZhYi9kZW1uMHZzLTY5NzE4NWNhLTFiOTctNDQzYy05MmEzLTJhYWEwYzI4NWFiOC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.pZXFN9Ro5BSrpCVk9I0FbY2k-c-9FC1qLkVzoE9jwhQ);
     background-size: cover;
-    height: 500px;
+    height: 400px;
+    
 }
 
 .fondo {
