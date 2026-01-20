@@ -1,7 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: blue;
+    background-image: url(https://wallpapercave.com/wp/wp15336698.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #menu{
@@ -10,6 +14,7 @@ body{
     width: 100%;
     top: 0;
     background-image: url(https://img.freepik.com/fotos-premium/fondo-abstracto-textura-cuadrados-rojos_476363-687.jpg?semt=ais_hybrid&w=740&q=80);
+    border: dashed black 2px;
     }
 
 
@@ -21,7 +26,7 @@ body{
     padding: 8px 16px ;
     border: 3px black dotted;
     text-decoration: none;
-    background-color: #B4FAFA;
+    background-color: white;
 }
 
 #menu li a:hover{
@@ -41,7 +46,6 @@ body{
 header{
     height: 200px;
     margin-top: 55px;
-    border: black solid 2px;
 }
 
 header img {
@@ -50,15 +54,15 @@ header img {
 }
 
 header h1 {
-    color: white;
-    border: solid black 2px;
+    color: black;
     text-align: center;
+    background-color: white;
+    display: inline;
 }
 
 .content{
     background-color: grey;
     height: 600px;
-    border: black solid 2px;
     overflow: hidden;
 }
 
@@ -67,14 +71,18 @@ header h1 {
     float: left;
     height: 600px;
     background-color: white;
+    border-right: black 2px dashed;
 }
 
 .content .parte1 {
+    border: black solid 2px;
+    margin: 20px 20px 20px 20px
     
 }
 
 .content .parte2{
-
+    border: black solid 2px;
+    margin: 20px 20px 20px 20px
 }
 
 aside{}
