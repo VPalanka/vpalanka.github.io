@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*DuuERWuXZx3_9oBgaAyeMQ.png);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -45,35 +45,26 @@ body{
     border-bottom-right-radius: 10px;
 }
 
-header{
-    height: 200px;
-    margin-top: 55px;
-    background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*DuuERWuXZx3_9oBgaAyeMQ.png);
-    background-size: cover;
-    background-position: center;
-}
-
 header img {
-    width: 100px;
+    width: 150px;
     background-color: white;
 }
 
-#imageLeft {
+.imgheader{
     float: left;
-    padding-bottom: 5px;
+    margin-left: 80px;
 }
 
-#imageRight {
+.img2header{
     float: right;
-    padding-bottom: 5px;
+    margin-right: 80px;
 }
 
 #textCentral {
-    margin-top: 10px;
     padding: 15px;
     border: 5px dashed black;
     background-color: white;
-    margin: 10px 250px;
+    margin: 100px 250px;
     border-radius: 30px 30px 30px 30px;
     text-align: center;
 }
@@ -81,7 +72,6 @@ header img {
 .content{
     background-color: rgb(248, 248, 158);
     height: 600px;
-    overflow: hidden;
     border-top: black dashed 2px;
 }
 
@@ -97,7 +87,8 @@ header img {
 
 .content .parte1 {
     border: black solid 2px;
-    margin: 20px 20px 20px 20px
+    margin: 20px 20px 20px 20px;
+    overflow: auto;
     
 }
 
@@ -115,33 +106,64 @@ header img {
 
 .content .parte2{
     border: black solid 2px;
-    margin: 20px 20px 20px 20px
+    margin: 20px 20px 20px 20px;
+    overflow: auto;
 }
 
 .foto1{
+    float:right
 }
+
 .foto1 img{
-    width: 400px;
+    width: 250px;
 }
 
 .foto2{
+    float:right
 }
+
 .foto2 img{
-    width: 400px;
+    width: 250px;
 }
 
 .lateral{
     float:right;
-    margin-right: 10%;
+    width: 10%;
+    margin-right: 85px;
+    text-align: center;
+}
+
+.lateral li{
+    list-style: none;
+}
+
+.icono1{
+    width: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px
+}
+
+.icono2{
+    width: 80px;
+}
+
+.icono3{
+    width: 80px;
+    margin-top: 80px
 }
 
 footer{
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
     background-image: url(https://img.freepik.com/vector-gratis/sol-brilla-cielo-azul-nubes-blancas-fondo-realista_1284-10467.jpg);
     background-position: center;
     background-size: cover;
+    clear: both;
 }
+
 
 
