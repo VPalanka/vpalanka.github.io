@@ -311,6 +311,10 @@ h2{
         margin-top: 10px;
     }
 
+    .foto1 img{
+        width: 150px;
+    }
+
     .texto1{
         clear: both;
         margin: 0;
