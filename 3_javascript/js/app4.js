@@ -10,19 +10,25 @@ function numAleatorio(min,max){
 }
 
 let password=""
-let aleatorio=numAleatorio(8,50)
 
-while (password.length <= aleatorio){
-let num=caracteresNumeros[numAleatorio(0,9)]
-let letraEspecial=caracteresEspeciales[numAleatorio(0,30)]
-let letras=caracteres[numAleatorio(0,26)]
-let letrasMayus=caracteresMayusculas[numAleatorio(0,26)]
-password=password+num+letraEspecial+letras+letrasMayus
+function damePass(min, max, array){
+    let cuantosCaracteres=numAleatorio(min,max)
+    for (let i=0; i<cuantosCaracteres; i++){
+        let posicion=numAleatorio(0, array.length-1)
+        password+=array[posicion]
+    }
 }
 
+damePass(1,2,caracteresNumeros)
+damePass(1,2, caracteresEspeciales)
+damePass(1,1, caracteresMayusculas)
+// darme el resto
+let resto=50-password.length
+damePass(1,resto,caracteres)
+
+
 //desordenar array
-password=password.split('').sort(() => Math.random() - 0.5).join('')   
+password=password.split('').sort(() => Math.random() - 0.5).join('') 
 
+//mostrar en pantalla
 console.log(password)
-
-

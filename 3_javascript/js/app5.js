@@ -45,7 +45,6 @@ function borraAmigo(nombre){
     
  }
 
-
 //eventos
 botonAnyadir.addEventListener("click", (e)=> {
     e.preventDefault()
