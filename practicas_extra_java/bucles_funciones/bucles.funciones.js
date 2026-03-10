@@ -32,8 +32,8 @@ function contarMayoresQue(arr,x){
 }
 
 let numeros=[1,2,3,4,5]
-let resultado= contarMayoresQue(numeros, 2)
-console.log(resultado)
+let result= contarMayoresQue(numeros, 2)
+console.log(result)
 
 
 // 15.Función invertirTexto(texto)
