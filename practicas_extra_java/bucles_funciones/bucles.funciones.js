@@ -43,14 +43,13 @@ console.log(result)
 
 function invertirTexto(texto) {
     let nuevotexto = "";          // Inicializamos el texto invertido
-    for (let i = texto.length - 1; i >= 0; i--) {
+    for (let i = texto.length - 1; i >= 0; i--) { // el i-- es para recorrer arrays en orden inverso
         nuevotexto += texto[i];   // Añadimos cada carácter desde el final
     }
     return nuevotexto;
 }
 
-console.log(invertirTexto("hola"));       
-console.log(invertirTexto("Javascript")); 
+console.log(invertirTexto("hola"));        
 
 // 16.Función filtrarPares(arr)
 // • Recibe un array de números.
