@@ -35,10 +35,12 @@
     //eventos
     btn.addEventListener("click", () => {
       tareaAsync()
+        //si la promesa contesta con resolve lo recibo en then
         .then((mensaje) => {
           caja.textContent = mensaje;
           caja.style.background = "lightgreen";
         })
+        //si contesta con reject lo recibo en catch
         .catch((error) => {
           caja.textContent = error;
           caja.style.background = "tomato";
