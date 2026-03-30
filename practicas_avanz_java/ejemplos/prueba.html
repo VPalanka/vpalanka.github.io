@@ -11,6 +11,8 @@
     <div id="resultado"></div>
      
     <script>
+//Le preguntamos qué hora es en madrid y nos contesta con información. Hacemos promesa para que la página siga funcionando mientras se solicita esa información.
+
         //variables
         let boton=document.getElementById("run")
         let resultado=document.getElementById("resultado")
@@ -18,7 +20,7 @@
         //eventos
         boton.addEventListener("click", (e) =>{
           fetch("https://timeapi.io/api/Time/current/zone?timeZone=Europe/Madrid")
-            .then(response=> {
+            .then((response)=> {
                 // resultado.innerHTML="Todo Bien!!!!"
                 return response.json()
             })

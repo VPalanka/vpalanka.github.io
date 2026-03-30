@@ -16,10 +16,12 @@
 
     //funciones
     function tareaAsync() {
+      //resolve y reject puede ser cualquier cosa, por ejemplo a,b
       return new Promise((resolve, reject) => {
         caja.textContent = "Cargando...";
         caja.style.background = "khaki";
 
+        //setTimeout > para retrasar algo el tiempo que le digas (siempre en milisegundos)
         setTimeout(() => {
           const todoBien = true; // cambia a false para probar el error
 
@@ -28,7 +30,7 @@
           } else {
             reject("Falló");
           }
-        }, 2000);
+        }, 2000); //son los milisegundos que tarda en contestar
       });
     }
 
