@@ -58,16 +58,17 @@
 
   <form action="#" method="get">
     <label for="city">Ciudad:</label>
-    <input type="text" id="city" name="city" value="Valencia">
+      <input type="text" id="city" name="city" value="Valencia">
     <button type="button" id="boton">Actualizar</button>
   </form>
 
   <script>
     // URL de la API con tu clave (sustituye 'TU_API_KEY' por tu clave real)
-    const apiKey = 'bb0a731fe1f0b491d619d52ccc70fcfa';
+    const apiKey = 'f062eae6a5f702584f1786709f7af294';
     let titulo = document.getElementById('titulo');
     let boton=document.getElementById('boton'); 
     let inputCiudad = document.getElementById('city');
+    let weather= document.getElementById("weather")
     boton.addEventListener('click', function() {
       event.preventDefault(); // Evita que el formulario se envíe
       obtenerClima();
@@ -96,13 +97,14 @@
         })
         .then((data) => {
           // Extraemos los datos relevantes
+          console.log(data)
           const temperature = data.main.temp;
           const description = data.weather[0].description;
           const humidity = data.main.humidity;
 
           // Mostramos los datos en el HTML
           /*  ACABALO  */
-          
+          weather.innerHTML=`Temperatura: ${temperature} ºC  <br> ${description} <br> Humedad: ${humidity}` 
           
           /*  FIN ACABALO  */    
 

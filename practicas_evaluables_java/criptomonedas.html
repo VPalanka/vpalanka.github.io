@@ -34,10 +34,11 @@
     /*
       Devuelve un li con los datos de la moneda
     */
-    function creaElemento(cripto,cambio,cantidad) {    
+    function creaElemento(cripto,cambio,cantidadEuros) {    
       /*  ACABALO  */        
       let liElement = document.createElement('li')
-      liElement.textContent = `${cripto} - ${cantidad} = ${cambio}`
+      let totalCripto = cantidadEuros / cambio;
+      liElement.textContent = `${cripto} : ${totalCripto}`
       /*  FIN ACABALO  */
       return liElement
     }
@@ -73,7 +74,7 @@
             let cambio=datos.data.amount
             console.log("==>"+cambio);
             //usa creaElemento(cripto,cambio,cantidad)
-            let nuevoLi = creaElemento(cripto, cambio, cantidad)
+            let nuevoLi = creaElemento(cripto, cambio, cantidad.value)
             ulElement.appendChild(nuevoLi)
             /*  FIN ACABALO  */    
 

@@ -25,21 +25,27 @@
             Devuelve un li con los datos de la moneda
         */
         function creaElemento(valor, clave) {            
+            let introducido=parseFloat(cantidad.value)
             let total= Math.round(parseFloat(cantidad.value)*parseFloat(valor)*100)/ 100
             /*  ACABALO  */
-            
-            
-            //let liElement ....
+            let liElement=document.createElement('li')
+            liElement.textContent=`${introducido} ${moneda} = ${total} ${clave}`
+
             /*  FIN ACABALO  */    
             return liElement
         }
 
+        let unlist;
+
+        function crearlista(){
+            unlist=document.createElement('ul')
+            resultado.appendChild(unlist)
+        }
         
         /*
             Obtiene los cambios y los pinta en pantalla 
         */
         async function convertir(){        
-            //resultado.innerHTML=`1 ${moneda} = ${datos["rates"][moneda]} USD`
             fetch(url)
                 .then(response => response.json())
                 .then(datos => {
@@ -50,9 +56,8 @@
                     cambios.forEach(([clave, valor]) => {
                         console.log(clave, valor);
                         /*  ACABALO  */
-
-            
-                        //usa creaElemento(valor, clave)
+                        let nuevoLi=creaElemento(valor, clave)
+                        unlist.appendChild(nuevoLi)
                         /*  FIN ACABALO  */    
                     });
                     
@@ -62,6 +67,7 @@
         //eventos
         convertirBtn.addEventListener("click", function(){
             resultado.innerHTML=""
+            crearlista()
             convertir()
         })
 
